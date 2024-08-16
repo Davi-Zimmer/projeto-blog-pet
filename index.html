@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PetPost</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <form class="form" id="form" >
+
+                <div class="input-content">
+
+                    <h1>Cadastre seu pet</h1>
+                    <div class="input-row">
+                        <label for="title">Titulo</label>
+                        <input type="text" id="title" placeholder="Insira um titulo">
+                    </div>
+
+                    <div class="input-row">
+                        <label for="title">Autor</label>
+                        <input type="text" id="author" placeholder="Seu Nome">
+                    </div>
+                    
+                    <div class="input-row">
+                        <label for="description">Descrição</label>
+                        <input type="text" id="description" placeholder="Insira uma descrição">
+                    </div>
+                    
+                    <div class="input-row">
+                        <label for="img">Imagem</label>
+                        <input type="url" id="img" placeholder="https://minha-imagem.png">
+                    </div>
+
+                    <div class="input-row">
+                        
+                        <label for="type">Tipo</label>
+                        <select id="type">
+                            <option></option>
+                            <option value="cachorro">Cachorro</option>
+                            <option value="gato">Gato</option>
+                            <option value="passaro">Passaro</option>
+                            <option value="diversos">Diversos</option>
+                        </select>
+                    </div>
+
+                    <button id="submit-btn" type="submit">Postar</button>
+
+                </div>
+            </form>
+        </div>
+        
+    </body>
+    <script src="novoPost.js"></script>
+</html>
